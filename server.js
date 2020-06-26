@@ -11,25 +11,9 @@ app.get('*', (req, res) => {
   res.sendFile(join(__dirname, 'client', 'build', 'index.html'))
 })
 
-//route to connect contact
-app.get('/contact', (req, res) => {
-    res.sendFile(join(__dirname,
-        './public/index.html'
-        ))
-})
-
-//route to connect portfolio
-app.get('/portfolio', (req, res) => {
-    res.sendFile(join(__dirname,
-        './public/index.html'
-        ))
-})
-//route to connect * with index.html
 app.get('*', (req, res) => {
-    res.sendFile(join(__dirname,
-        'index.html'
-        ))
-})
+    res.sendFile(join(__dirname, 'client', 'build', 'index.html'))
+  })
 
 require('mongoose').connect(process.env.MONGODB_URI || process.env.LOCAL_URI, {
   useNewUrlParser: true,
