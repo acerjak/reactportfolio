@@ -7,7 +7,7 @@ const Card = () => {
         <div className="row">
           <div className="col m2 l2 hide-on-small-only"></div>
           <div className="col s12 m4 l4 aboutCard">
-            <div className="card hoverable">
+            <div className="card hoverable teal lighten-2">
               <div className="card-image">
                 <img src={img} alt="me" className="responsive-img aboutImg"/>
                 <span className="card-title">About Me</span>

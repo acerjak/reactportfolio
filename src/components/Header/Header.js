@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <nav>
-        <div className="nav-wrapper">
+        <div className="nav-wrapper teal lighten-2">
           <a href="https://acerjak.github.io/ResponsivePortfolio/index.html" className="brand-logo center hide-on-med-and-down">Amanda Cerjak</a>
           <ul className="left">
             <li><a className="waves-effect waves-light" href="/">About</a></li>
