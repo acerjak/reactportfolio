@@ -5,7 +5,7 @@ import {
   Route,
   BrowserRouter as Router
 } from 'react-router-dom'
-import Navbar from './components/Navbar'
+import Header from './components/Header'
 import Footer from './components/Footer'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
@@ -16,14 +16,12 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar>
+        <Header>
           <Link to="/">About</Link>
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/contact">Contact</Link>
-        </Navbar>
+        </Header>
         <Switch> 
-          <div className="container">
-            <div className="row">
             <Route exact path="/">
               <About />
             </Route>
@@ -33,8 +31,6 @@ function App() {
             <Route path="/contact">
               <Contact />
             </Route>
-            </div>
-          </div>
         </Switch>
         <Footer />
       </div>

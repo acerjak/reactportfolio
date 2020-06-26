@@ -3,19 +3,20 @@
   "name": "reactportfolio",
   "images": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "githubIson.png",
+      "type": "image/png",
+      "sizes": "75x75"
+      
     },
     {
-      "src": "logo192.png",
+      "src": "instagramIcon.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "75x75"
     },
     {
-      "src": "logo512.png",
+      "src": "linkedinIcon.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "75x75"
     }
   ],
   "start_url": ".",
