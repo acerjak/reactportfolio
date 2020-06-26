@@ -5,8 +5,8 @@ const Card = () => {
     return (
       <>
         <div className="row">
-          <div className="col s4 hide-on-small-only"></div>
-          <div className="col s4 aboutCard">
+          <div className="col m2 l2 hide-on-small-only"></div>
+          <div className="col s12 m4 l4 aboutCard">
             <div className="card hoverable">
               <div className="card-image">
                 <img src={img} alt="me" className="responsive-img aboutImg"/>
@@ -21,6 +21,7 @@ const Card = () => {
               </div>
             </div>
           </div>
+          <div className="col l2"></div>
         </div>
       </>
     )
