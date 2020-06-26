@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    display: inline-block!important;
+}
+.container{
+    text-align: center;
+    grid-template-columns: 10px 10px;
+    grid-column-gap: 10px;
+}
+.projectImg{
+    max-width: 150px;
+    max-height: 150px;
+}
+.midDiv{
+    width: 25px;
+    height: 25px;
+}

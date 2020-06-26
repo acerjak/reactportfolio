@@ -1,8 +1,9 @@
 import React from 'react'
+import Project from '../../components/Project'
 
 const Portfolio = () => {
     return (
-        <h1>This is the portfolio page.</h1>
+        <Project />
     )
 }
 
