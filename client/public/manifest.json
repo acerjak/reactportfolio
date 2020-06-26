@@ -1,0 +1,27 @@
+{
+    "short_name": "React Portfolio",
+    "name": "reactportfolio",
+    "images": [
+      {
+        "src": "githubIson.png",
+        "type": "image/png",
+        "sizes": "75x75"
+        
+      },
+      {
+        "src": "instagramIcon.png",
+        "type": "image/png",
+        "sizes": "75x75"
+      },
+      {
+        "src": "linkedinIcon.png",
+        "type": "image/png",
+        "sizes": "75x75"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
+  

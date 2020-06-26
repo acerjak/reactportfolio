@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    display: inline-block!important;
+}
+.container{
+    text-align: center;
+    display: table;
+    grid-template-columns: 10px 10px;
+    grid-column-gap: 10px;
+}
+.midDiv{
+    width: 25px;
+    height: 25px;
+}
+.card{
+    vertical-align: middle;
+    display:table-cell;
+}
