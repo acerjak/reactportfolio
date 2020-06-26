@@ -4,7 +4,7 @@ import img from './IMG_0540.JPG'
 const Card = () => {
     return (
       <>
-        <div className="row" style={{display: "inline-block"}}>
+        <div className="row">
           <div className="col s4 hide-on-small-only"></div>
           <div className="col s4 aboutCard">
             <div className="card hoverable">
