@@ -1,7 +1,7 @@
 import React from 'react'
 import img from './IMG_0540.JPG'
 
-const Card = () => {
+const AboutCard = () => {
     return (
       <>
         <div className="row">
@@ -27,4 +27,4 @@ const Card = () => {
     )
 }
 
-export default Card
+export default AboutCard

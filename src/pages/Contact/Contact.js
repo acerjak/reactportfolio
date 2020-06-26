@@ -1,8 +1,9 @@
 import React from 'react'
+import Info from '../../components/Info'
 
 const Contact = () => {
     return (
-<h1>This is the contact page</h1>
+        <Info />
     )
 }
 
