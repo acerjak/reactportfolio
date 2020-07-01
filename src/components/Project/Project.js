@@ -5,13 +5,14 @@ import burger from './burger.JPG'
 import dealTrack from './dealTracker.JPG'
 import IEQ from './InterviewEQ.png'
 import empDirect from './empDirectory.JPG'
+import './Project.css'
 
 const Project = () => {
     return (
         <>
         <div className="container">
         <div className="row" style={{display: "inline-block"}}>
-            <div className="col s12 m5 l5 card">
+            <div className="col s12 m6 l4 card">
                 <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" src={Responsive} alt="Responsive"/>
                 </div>
@@ -29,8 +30,7 @@ const Project = () => {
                 </p>
             </div>
         </div>
-        <div className="col l2 midDiv hide-on-small-only"></div>
-        <div className="col s12 m5 l5 card">
+        <div className="col s12 m6 l4 card">
             <div className="card-image waves-effect waves-block waves-light">
                 <img className="activator" src={Code} alt="Code"/>
             </div>
@@ -49,9 +49,7 @@ const Project = () => {
                 </p>
             </div>
             </div>
-        </div>
-        <div className="row" style={{display: "inline-block"}}>
-            <div className="col s12 m5 l5 card">
+            <div className="col s12 m6 l4 card">
                 <div className="card-image waves-effect waves-block waves-light">
                     <img onClick={ (e)=>{alert("NOMNOMNOM!")}} className="activator" src={burger} alt="burger"/>
                 </div>
@@ -70,8 +68,7 @@ const Project = () => {
                 </p>
             </div>
         </div>
-        <div className="col l2 midDiv hide-on-small-only"></div>
-        <div className="col s12 m5 l5 card">
+        <div className="col s12 m6 l4 card">
             <div className="card-image waves-effect waves-block waves-light">
                 <img className="activator" src={IEQ} alt="IEQ"/>
             </div>
@@ -89,9 +86,7 @@ const Project = () => {
                 </p>
             </div>
             </div>
-        </div>
-        <div className="row" style={{display: "inline-block"}}>
-            <div className="col s12 m5 l5 card">
+            <div className="col s12 m6 l4 card">
                 <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" src={dealTrack} alt="dealTrack"/>
                 </div>
@@ -111,8 +106,7 @@ const Project = () => {
                 </p>
             </div>
         </div>
-        <div className="col l2 midDiv hide-on-small-only"></div>
-        <div className="col s12 m5 l5 card">
+        <div className="col s12 m6 l4 card">
             <div className="card-image waves-effect waves-block waves-light">
                 <img className="activator" src={empDirect} alt="empDirect"/>
             </div>

@@ -4,7 +4,7 @@ body{
 }
 .container{
     text-align: center;
-    display: table;
+    max-width: 80%;
     grid-template-columns: 10px 10px;
     grid-column-gap: 10px;
 }
@@ -15,4 +15,11 @@ body{
 .card{
     vertical-align: middle;
     display:table-cell;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.col{
+    padding: 20px;
 }
