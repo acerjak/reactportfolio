@@ -4,9 +4,9 @@ import './Info.css'
 
 const Info = () => {
     return(
-        <>
-        <div className="container">
-            <Collapsible accordion>
+    <div className="contactContainer">
+        <div className="infoContainer">
+            <Collapsible accordion popout>
               <CollapsibleItem
                   expanded={false}
                   header="Email"
@@ -41,7 +41,7 @@ const Info = () => {
               </CollapsibleItem>
             </Collapsible>
         </div>
-        </>
+    </div>
     )
 }
 
