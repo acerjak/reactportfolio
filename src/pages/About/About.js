@@ -3,7 +3,9 @@ import Card from '../../components/AboutCard'
 
 const About = () => {
     return (
+        <>
         <Card />
+        </>
     )
 }
 
