@@ -2,7 +2,7 @@ body{
     text-align: center;
 }
 .projectContainer{
-    display: inline-block!important;
+    display: inline;
     justify-content: center;
     max-width: 80%;
     grid-template-columns: 10px 10px;
