@@ -5,7 +5,6 @@ const AboutCard = () => {
     return (
       <>
         <div className="row">
-          <div className="col m2 l2 hide-on-small-only"></div>
           <div className="col s12 m4 l4 aboutCard">
             <div className="card hoverable teal lighten-2">
               <div className="card-image">
@@ -21,7 +20,6 @@ const AboutCard = () => {
               </div>
             </div>
           </div>
-          <div className="col l2"></div>
         </div>
       </>
     )

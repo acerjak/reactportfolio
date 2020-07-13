@@ -1,14 +1,15 @@
-.row{
-    margin-bottom: 2px;
-    display: "inline-block";
-}
 .aboutImg {
     max-width: 100%;
     height: "auto";
 }
 .aboutCard {
-    align-self: "center"; 
     min-width: 400px;
     max-width: 800px;
     max-height: 800px;
+}
+.aboutContainer{
+    float: none;
+    max-width: 500px;
+    max-height: 500px;
+    display: inline;
 }
