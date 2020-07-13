@@ -10,7 +10,7 @@ import './Project.css'
 const Project = () => {
     return (
         <>
-        <div className="container">
+        <div className="projectContainer">
         <div className="row" style={{display: "inline-block"}}>
             <div className="col s12 m6 l4 card">
                 <div className="card-image waves-effect waves-block waves-light">
