@@ -2,18 +2,16 @@ body{
     text-align: center;
 }
 .projectContainer{
-    text-align: center;
     display: inline-block!important;
+    justify-content: center;
     max-width: 80%;
     grid-template-columns: 10px 10px;
-    grid-column-gap: 10px;
 }
 .midDiv{
     width: 25px;
     height: 25px;
 }
 .card{
-    vertical-align: middle;
     display:table-cell;
 }
 img{
