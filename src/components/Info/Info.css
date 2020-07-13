@@ -1,4 +1,6 @@
-.container{
-    max-width: 50%;
+.infoContainer{
+    width: 80%;
     text-align: center;
+    display: inline-block;
 }
+

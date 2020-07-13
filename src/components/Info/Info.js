@@ -4,7 +4,6 @@ import './Info.css'
 
 const Info = () => {
     return(
-    <div className="contactContainer">
         <div className="infoContainer">
             <Collapsible accordion popout>
               <CollapsibleItem
@@ -41,7 +40,6 @@ const Info = () => {
               </CollapsibleItem>
             </Collapsible>
         </div>
-    </div>
     )
 }
 
