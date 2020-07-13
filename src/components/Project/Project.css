@@ -1,9 +1,9 @@
 body{
     text-align: center;
-    display: inline-block!important;
 }
-.container{
+.projectContainer{
     text-align: center;
+    display: inline-block!important;
     max-width: 80%;
     grid-template-columns: 10px 10px;
     grid-column-gap: 10px;
