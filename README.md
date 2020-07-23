@@ -13,7 +13,7 @@
 ## Usage
 > To showcase my talents in the hopes of pursuing a career within web development. 
 ## Link
-> [React Portfolio](https://whispering-sierra-72346.herokuapp.com/ "Heroku Deployed Link")
+> https://amandacerjak.herokuapp.com/
 ## Credits
 > I would like to thank google and my tutor for making this portfolio possible. 
 ## Questions
