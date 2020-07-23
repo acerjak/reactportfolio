@@ -36,7 +36,7 @@ const Info = () => {
                   icon={<Icon>folder_shared</Icon>}
                   node="div"
               >
-                  <a className="projectImg" href="https://docs.google.com/document/d/e/2PACX-1vQNY8r4pPXWpt4AptfpiCY7uDE71fMO9W8KZZiDx26_Wf7OpTAyTeMA30GLm2D3FA/pub">Link to GoogleDoc</a>
+                  <a className="projectImg" href="https://docs.google.com/document/d/1NYdyUhOMOwuAHU-8ARjWd_jx-BHvu5IEN8JKWPDZAIM/edit?usp=sharing">Link to GoogleDoc</a>
               </CollapsibleItem>
             </Collapsible>
         </div>
