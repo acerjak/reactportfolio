@@ -7,6 +7,7 @@ const Info = () => {
         <div className="infoContainer">
             <Collapsible accordion popout>
               <CollapsibleItem
+                  className="infoPopOuts"
                   expanded={false}
                   header="Email"
                   icon={<Icon>email</Icon>}
@@ -15,6 +16,7 @@ const Info = () => {
                   amandacerjak@gmail.com
               </CollapsibleItem>
               <CollapsibleItem
+                  className="infoPopOuts"
                   expanded={false}
                   header="Phone"
                   icon={<Icon>local_phone</Icon>}
@@ -23,6 +25,7 @@ const Info = () => {
                   (714)-402-9226
               </CollapsibleItem>
               <CollapsibleItem
+                  className="infoPopOuts"
                   expanded={false}
                   header="Current Location"
                   icon={<Icon>place</Icon>}
@@ -31,6 +34,7 @@ const Info = () => {
                   Huntington Beach, CA
               </CollapsibleItem>
               <CollapsibleItem
+                  className="infoPopOuts"
                   expanded={false}
                   header="Resume"
                   icon={<Icon>folder_shared</Icon>}
