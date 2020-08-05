@@ -1,10 +1,10 @@
 import React from 'react'
-import Card from '../../components/AboutCard'
+import AboutCard from '../../components/AboutCard'
 
 const About = () => {
     return (
         <>
-        <Card />
+        <AboutCard />
         </>
     )
 }
