@@ -1,5 +1,7 @@
 .infoContainer{
+    width: 60%;
     text-align: center;
-    display: inline;
 }
-
+.infoPopOuts{
+    align-items: center;
+}
