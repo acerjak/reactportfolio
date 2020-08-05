@@ -1,15 +1,17 @@
-.aboutImg {
+/* .aboutImg {
     max-width: 100%;
     height: "auto";
+} */
+.aboutItem{
+    align-self: center;
+    width: auto;
+    height: auto;
+    background: linear-gradient(#e0f2f1, #80cbc4, #26a69a)!important;
 }
-.aboutCard {
-    min-width: 400px;
-    max-width: 800px;
-    max-height: 800px;
-}
-.aboutContainer{
-    float: none;
-    max-width: 500px;
-    max-height: 500px;
-    display: inline;
-}
+@media screen and (min-width: 769px) {
+    .aboutItem{
+        margin-left: 300px;
+        width: 600px;
+        height: 285px;
+    }
+  }
