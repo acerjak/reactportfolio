@@ -40,7 +40,7 @@ const Info = () => {
                   icon={<Icon>folder_shared</Icon>}
                   node="div"
               >
-                  <a className="projectImg" href="https://docs.google.com/document/d/1NYdyUhOMOwuAHU-8ARjWd_jx-BHvu5IEN8JKWPDZAIM/edit?usp=sharing">Link to GoogleDoc</a>
+                  <a className="projectImg" href="https://docs.google.com/document/d/17E3vYTIHt0EV3-aXD-GbuKbc2qeuofo6LDv6-uX_vy0/edit?usp=sharing">Link to GoogleDoc</a>
               </CollapsibleItem>
             </Collapsible>
         </div>
